@@ -1,0 +1,17 @@
+
+<html>
+<header>
+    <title>Students</title>
+</header>
+<body> 
+<h1>Students:</h1>
+
+<ul>
+<% @students.each do |student| %>
+<li><%= student.first_name %></li>
+<% end %>
+</ul>
+
+
+</body>
+</html>
